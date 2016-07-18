@@ -16,12 +16,12 @@ var addEvent = function(element, type, handler){
 	}
 }
 //显示登录层函数
-function showLogin(){
+var showLogin = function(){
 	var loginBox = document.getElementById("login_box");
 	loginBox.style.display = "block";
 }
 //隐藏登录层函数
-function hideLogin(){
+var hideLogin = function(){
 	var loginBox = document.getElementById("login_box");
 	loginBox.style.display = "none";
 }
